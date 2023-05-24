@@ -1,0 +1,64 @@
+.form {
+    width: 480px;
+    background-color: rgb(214, 210, 210);
+    padding: 10px;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.form input {
+    width: 75%;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding: 10px; 
+    color: blue;
+}
+.form button {
+    border: none;
+    padding: 5px 9px;
+    border-radius: 4px;
+    font-size: 13px ;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+
+.new-task {
+    background-color: rgb(214, 210, 210);
+    width: 470px;
+    padding: 10px;
+    margin: 30px auto;
+    
+}
+
+.new-task .task {
+    
+    margin: 7px ;
+    background-color: white;
+    color: darkslategrey;
+    padding: 9px;
+    border-radius: 2px;
+    transition: 1s;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.task:hover{
+    background-color:rgb(219, 223, 223) ;
+    color: rgb(183, 185, 185);
+}
+
+.done {
+    background-color:rgb(219, 223, 223) !important ;
+    color: rgb(183, 185, 185) !important;
+}
+
+.del {
+    border: 1px solid red;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color: red;
+}
